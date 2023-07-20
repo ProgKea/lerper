@@ -1,0 +1,50 @@
+body {
+	background-color: #181818;
+	color: #e4e4ef;
+	font-family: Consolas;
+}
+
+.flexRow {
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+}
+
+.flexCol {
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+}
+
+.flexRow > * {
+	margin: auto;
+	height: fit-content;
+	margin: auto;
+	margin-left: 10px;
+}
+
+button {
+	user-select: none;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 32px;
+	height: 32px;
+}
+
+pre > * {
+	width: fit-content;
+}
+
+.noLeftMargin {
+	margin-left: 0px;
+}
+
+.marginRight {
+	margin-right: 10px;
+}
